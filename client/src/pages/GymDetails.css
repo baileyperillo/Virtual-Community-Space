@@ -1,0 +1,45 @@
+/* Gym Detail Page CSS */
+
+.gym-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    padding-left: 100px;
+    width: 40vw;
+}
+
+.image-container img {
+    width: 80%;
+}
+
+.gym-details {
+    width: 45vw;
+}
+
+
+/* Events */
+
+.events-section {
+    margin-top: 30px;
+}
+
+.events-section h2 {
+    margin-bottom: 20px;
+}
+
+.event-card {
+    border: 2px solid rgb(3, 7, 89);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.event-card h3 {
+    margin-top: 0;
+}
+
+.event-card p {
+    margin: 5px 0;
+}

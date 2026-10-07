@@ -1,0 +1,176 @@
+:root {
+    background-color: white;
+    font-family: Avenir, Helvetica, sans-serif;
+    color: black;
+}
+
+/* Header CSS */
+
+.header-container {
+    overflow: hidden;
+    padding: 20px 20px 50px;
+}
+
+.header-left {
+    float: left;
+    height: 100px;
+    width: 350px;
+}
+
+.header-left img {
+    padding-top: 8px;
+    height: 90px;
+
+    
+    
+    /* width: 20px !important;
+    height: 20px !important;
+    border: 10px solid red !important; */
+
+}
+
+.header-left h1 {
+    float: right;
+    font-size: 42px;
+    margin-top: 25px;
+}
+
+.header-right {
+    float: right;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.header-right button {
+    background-color: white;
+    border: 3px solid rgb(3, 7, 89);
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: rgb(3, 7, 89);
+    cursor: pointer;
+    padding: 15px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80px;
+}
+
+/* Home Page CSS */
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    width: 300px;
+    min-height: 420px;
+    background: white;
+    border: 3px solid rgb(3, 7, 89);
+    border-radius: 12px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.top-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.bottom-container {
+    padding: 15px;
+}
+
+.bottom-container h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.bottom-container p {
+    margin: 5px 0;
+}
+
+.bottom-container a {
+    display: inline-block;
+    margin-top: 12px;
+    color: rgb(228, 16, 133);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom-container a:hover {
+    text-decoration: underline;
+}
+
+/* 404 Page CSS */
+
+.fof-container {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: black;
+}
+
+.fof {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fof h1 {
+    color: rgb(26, 25, 25);
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .6s alternate infinite;
+}
+
+@keyframes type {
+    from {
+        box-shadow: inset -3px 0px 0px #888;
+    }
+
+    to {
+        box-shadow: inset -3px 0px 0px transparent;
+    }
+}
+
+/* Gym Detail Page CSS */
+
+.gym-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+}
+
+.image-container {
+    width: 40vw;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+.gym-details {
+    width: 45vw;
+}
+
+.gym-details h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.gym-details p {
+    font-size: 18px;
+    line-height: 1.5;
+}
